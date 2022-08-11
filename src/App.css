@@ -1,0 +1,15 @@
+.app h1{
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+
+}
+.app h1::after{
+  content: '';
+  width: 5rem;
+  height: 0.25rem;
+  margin: 0.25rem auto;
+  display: block;
+  background-color: goldenrod;
+  
+}

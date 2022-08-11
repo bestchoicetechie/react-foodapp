@@ -1,0 +1,23 @@
+.categories-container{
+    width: 100%;
+    padding: 1rem;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
+}
+button{
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    padding: 0.25rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    color: goldenrod;
+}
+button:hover{
+    background-color: goldenrod;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
